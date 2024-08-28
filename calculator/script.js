@@ -106,7 +106,11 @@ const calculadora = {
         console.log(numeros)
     }),
     maisOuMenos : maisOuMenos.addEventListener("click",()=> {
-        numeros.push(``)
+        numeros.push(`+-`)
+        console.log(numeros)
+    }),
+    clier :limpar.addEventListener("click",()=> {
+        numeros = []
         console.log(numeros)
     }),
     }
